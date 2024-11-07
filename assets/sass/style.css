@@ -289,6 +289,9 @@ img {
   -webkit-animation: rotating 5s alternate infinite;
   animation: rotating 5s alternate infinite;
 }
+.signature{
+  width: 170%;
+}
 
 /*** back to top **/
 .back-btn {
