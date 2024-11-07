@@ -4971,7 +4971,7 @@ body.dark-page .mouse-circle-mover-follow {
   background: none;
   color: #58734c;
 }
-.company-area .company-wrap .comapny-item {
+.company-area .company-wrap .company-item {
   background: #fff;
   padding: 30px 30px;
   border-radius: 5px;
@@ -4980,7 +4980,7 @@ body.dark-page .mouse-circle-mover-follow {
   margin-bottom: 30px;
   z-index: 1;
 }
-.company-area .company-wrap .comapny-item::before {
+.company-area .company-wrap .company-item::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -4995,21 +4995,21 @@ body.dark-page .mouse-circle-mover-follow {
   opacity: 0;
 }
 @media (max-width: 991px) {
-  .company-area .company-wrap .comapny-item:last-child {
+  .company-area .company-wrap .company-item:last-child {
     margin-bottom: 0;
   }
 }
-.company-area .company-wrap .comapny-item .comapny-item-info {
+.company-area .company-wrap .company-item .company-item-info {
   padding-right: 60px;
 }
-.company-area .company-wrap .comapny-item .comapny-item-info h4 {
+.company-area .company-wrap .company-item .company-item-info h4 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
   transition: all 0.3s;
 }
-.company-area .company-wrap .comapny-item .comapny-item-info span {
+.company-area .company-wrap .company-item .company-item-info span {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5017,7 +5017,7 @@ body.dark-page .mouse-circle-mover-follow {
   color: #58734c;
   transition: all 0.3s;
 }
-.company-area .company-wrap .comapny-item small {
+.company-area .company-wrap .company-item small {
   position: absolute;
   right: 40px;
   top: 50%;
@@ -5032,24 +5032,24 @@ body.dark-page .mouse-circle-mover-follow {
   height: 20px;
   transition: all 0.3s;
 }
-.company-area .company-wrap .comapny-item:hover small {
+.company-area .company-wrap .company-item:hover small {
   transform: rotate(-40deg);
   margin-top: -10px;
 }
-.company-area .company-wrap .comapny-item:hover::before {
+.company-area .company-wrap .company-item:hover::before {
   transform: scale(1);
   opacity: 1;
 }
-.company-area .company-wrap .comapny-item:hover .comapny-item-info {
+.company-area .company-wrap .company-item:hover .company-item-info {
   padding-right: 60px;
 }
-.company-area .company-wrap .comapny-item:hover .comapny-item-info h4 {
+.company-area .company-wrap .company-item:hover .company-item-info h4 {
   color: #fff;
 }
-.company-area .company-wrap .comapny-item:hover .comapny-item-info span {
+.company-area .company-wrap .company-item:hover .company-item-info span {
   color: #fff;
 }
-.company-area .company-wrap .comapny-item:hover small {
+.company-area .company-wrap .company-item:hover small {
   color: #fff;
 }
 
@@ -5812,17 +5812,17 @@ body.dark-mode .about-event-area .event-wrap::before {
 body.dark-mode .company-area {
   background-color: #131514;
 }
-body.dark-mode .company-area .company-wrap .comapny-item {
+body.dark-mode .company-area .company-wrap .company-item {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-body.dark-mode .company-area .company-wrap .comapny-item::before {
+body.dark-mode .company-area .company-wrap .company-item::before {
   background-color: #FFA903;
 }
-body.dark-mode .company-area .company-wrap .comapny-item .comapny-item-info span {
+body.dark-mode .company-area .company-wrap .company-item .company-item-info span {
   color: #fff;
 }
-body.dark-mode .company-area .company-wrap .comapny-item small {
+body.dark-mode .company-area .company-wrap .company-item small {
   color: #fff;
 }
 body.dark-mode .ch-blog-area-s2 .blog-items .blog-item {
