@@ -1864,7 +1864,7 @@ body.dark-page .mouse-circle-mover-follow {
   top: 0;
   width: 680px;
   height: 680px;
-  background: #E9D275;
+  background: #FBF3F2;
   content: "";
   z-index: -1;
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
