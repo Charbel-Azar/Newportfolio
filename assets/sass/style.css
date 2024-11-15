@@ -46,6 +46,10 @@ html {
 :root {
   scroll-behavior: unset;
 }
+/* Apply justification to all text */
+body {
+  text-align: justify;
+}
 
 body {
   font-family: "Rubik", sans-serif;
