@@ -2905,9 +2905,47 @@ body.dark-page .mouse-circle-mover-follow {
 /*===================================
  07. service-area
  ====================================*/
+ /* Ensure Parent Uses Flexbox */
+.service-wrap .row {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  align-items: stretch; /* Align items to stretch to the same height */
+}
+
+/* Equal Heights for Service Items */
+.service-area .service-item {
+  flex: 1; /* Allow items to grow equally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content is evenly spaced */
+  min-height: 350px; /* Set a consistent minimum height */
+}
+
+@media (max-width: 991px) {
+  .service-area .service-item {
+    min-height: unset; /* Remove minimum height on smaller screens */
+  }
+}
+ /* Hover Effect: Glowing Green Shadow */
+.service-area .service-item:hover, 
+.service-area .service-item.active {
+  box-shadow: 0 10px 20px #58734c; /* Green glow effect */
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Mobile Scroll: Add Glow Effect */
+@media (max-width: 991px) {
+  .service-area .service-item.scrolled-into-view {
+    box-shadow: 0 10px 20px  #58734c; /* Green glow effect */
+    transform: scale(1.05); /* Slight zoom */
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 .service-area,
 .service-area-s2 {
-  padding-top: 180px;
+  
   padding-bottom: 90px;
 }
 @media (max-width: 991px) {
