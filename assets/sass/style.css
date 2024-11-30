@@ -2332,7 +2332,7 @@ body.dark-page .mouse-circle-mover-follow {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  font-family: "Rubik", sans-serif;
+  font-family: "Urbanist", sans-serif;
   color: rgba(255, 255, 255, 0.02);
 }
 @media (max-width: 1399px) {
@@ -7159,7 +7159,7 @@ body.violet-home .back-btn {
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Urbanist", sans-serif;
   color: #131514;
   margin-top: 15px;
 }
@@ -7496,7 +7496,7 @@ body.violet-home .back-btn {
   margin: 0 0 1em;
 }
 .blog-single-page-area .blog-single-wrap .comments-area .comments-meta h4 span {
-  font-family: "Rubik", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 13px;
   font-size: calc-rem-value(13);
   color: #5C5C5C;
@@ -7733,7 +7733,7 @@ body.violet-home .back-btn {
 }
 .contact-pg-section form .submit-area .theme-btn {
   border-radius: 0px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
 }
 .contact-pg-section form .submit-area .theme-btn:after {
@@ -8018,7 +8018,7 @@ body.violet-home .back-btn {
 
 /* Education*/
 .education {
-  font-family: "Rubik", sans-serif;
+  font-family: "Urbanist", sans-serif;
   margin-bottom: 5vh;
 }
 .education ul {
