@@ -37,6 +37,22 @@
 /*---------------------------
 	Fonts
 ----------------------------*/
+@font-face {
+  font-family: 'Urbanist';
+  src: url('../fonts/Urbanist-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Step 2: Apply the font globally */
+body {
+  font-family: 'Urbanist', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap");
 /* 01. Common css   */
 html {
@@ -52,7 +68,7 @@ body {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Urbanist", sans-serif;
   color: #2A2C30;
   background-color: #fff;
   font-size: 16px;
@@ -78,7 +94,7 @@ h4,
 h5,
 h6 {
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-weight: 400;
 }
 
@@ -528,7 +544,7 @@ body.dark-page .mouse-circle-mover-follow {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #FBF3F2;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
 }
 @media (max-width: 767px) {
   .ch-top-title span,
@@ -611,7 +627,7 @@ body.dark-page .mouse-circle-mover-follow {
   line-height: 32px;
   letter-spacing: 1.28px;
   text-transform: uppercase;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   border: 1px solid #FBF3F2;
   border-radius: 5px;
   position: relative;
@@ -1364,7 +1380,7 @@ body.dark-page .mouse-circle-mover-follow {
   letter-spacing: 1.28px;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   padding: 8px 30px;
   text-align: center;
   border-radius: 5px;
@@ -1521,7 +1537,7 @@ body.dark-page .mouse-circle-mover-follow {
 .ch-main-hero .ch-main-hero-text,
 .ch-main-hero-s2 .ch-main-hero-text {
   position: relative;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 @media (max-width: 991px) {
   .ch-main-hero .ch-main-hero-text,
@@ -1758,7 +1774,7 @@ body.dark-page .mouse-circle-mover-follow {
   color: #FBF3F2;
 }
 .ch-main-hero-s2 .ch-main-hero-text span.title-sub {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -1767,7 +1783,7 @@ body.dark-page .mouse-circle-mover-follow {
   color: #FBF3F2;
 }
 .ch-main-hero-s2 .ch-main-hero-text h2 {
-  font-size: 130px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 700;
   line-height: 115%;
@@ -1926,7 +1942,7 @@ body.dark-page .mouse-circle-mover-follow {
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   letter-spacing: 15px;
 }
 .ch-main-hero-s2 .right-image .rotate-text-wrap .icon {
@@ -1951,7 +1967,7 @@ body.dark-page .mouse-circle-mover-follow {
 }
 .ch-main-hero-s3 .ch-main-hero-text span.title-sub {
   color: #fff;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -3023,7 +3039,7 @@ body.dark-page .mouse-circle-mover-follow {
 }
 .service-area .service-item .service-text a.read-more,
 .service-area-s2 .service-item .service-text a.read-more {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -3338,7 +3354,7 @@ body.dark-page .mouse-circle-mover-follow {
   line-height: 160%;
 }
 .about-area .about-right-text span {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -3516,7 +3532,7 @@ body.dark-page .mouse-circle-mover-follow {
 }
 .ch-service-area .ch-service-right-wrap .item span {
   transition: all 0.3s;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -4013,7 +4029,7 @@ body.dark-page .mouse-circle-mover-follow {
 .ch-blog-area .blog-items .blog-item .blog-content ul li strong,
 .ch-blog-area-s2 .blog-items .blog-item .blog-content ul li strong {
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -4279,7 +4295,7 @@ body.dark-page .mouse-circle-mover-follow {
   line-height: 20px;
   text-transform: capitalize;
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   margin-bottom: 0;
   margin-top: 10px;
 }
@@ -4306,7 +4322,7 @@ body.dark-page .mouse-circle-mover-follow {
   }
 }
 .about-area-s2 .about-right-item .about-right-text span {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -4495,7 +4511,7 @@ body.dark-page .mouse-circle-mover-follow {
   color: #58734c;
 }
 .benefit-area .benefit-item .benefit-text a.read-more {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -4622,7 +4638,7 @@ body.dark-page .mouse-circle-mover-follow {
   }
 }
 .ch-portfolio-area-s2 .porfolio-wrap .porfolio-item .porfolio-text a {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -4941,7 +4957,7 @@ body.dark-page .mouse-circle-mover-follow {
   -webkit-text-stroke: 1px #58734c;
 }
 .funfact-area.style-2 .info h3 span {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
 }
 .funfact-area.style-2 .col:last-child .info {
   border: 0;
@@ -5410,7 +5426,7 @@ body.dark-mode .ch-service-area .ch-service-left-wrapper .ch-service-text-right 
   line-height: 30px;
 }
 body.dark-mode .ch-service-area .ch-service-left-wrapper .ch-service-text-right a.read-more {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -5742,7 +5758,7 @@ body.dark-mode .ch-portfolio-area-s2 .porfolio-wrap .porfolio-item .porfolio-des
   margin-bottom: 15px;
 }
 body.dark-mode .ch-portfolio-area-s2 .porfolio-wrap .porfolio-item .porfolio-des a.read-more {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -6066,7 +6082,7 @@ body.violet-home .features-area .features-item .features-text h3 a {
   color: #000;
 }
 body.violet-home .features-area .features-item .features-text a.read-more {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -6303,7 +6319,7 @@ body.violet-home .testimonial-section-s2 .testimonial-item .testimonial-text ul 
 body.violet-home .testimonial-section-s2 .testimonial-item .testimonial-text p {
   color: #000;
   text-align: center;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -6562,7 +6578,7 @@ body.violet-home .back-btn {
   line-height: 32px;
   letter-spacing: 1.28px;
   text-transform: uppercase;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
 }
 
 /*--------------------------------------------------------------
@@ -6686,7 +6702,7 @@ body.violet-home .back-btn {
 }
 .blog-page-area .blog-item .blog-img ul li strong {
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -6891,7 +6907,7 @@ body.violet-home .back-btn {
 }
 .blog-sidebar .recent-post .post .post-content ul li strong {
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -6918,7 +6934,7 @@ body.violet-home .back-btn {
 }
 .blog-sidebar .category-widget ul li a {
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -7006,7 +7022,7 @@ body.violet-home .back-btn {
   margin-bottom: 1.2em;
 }
 .blog-sidebar .about-widget a {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 14px;
   font-size: calc-rem-value(14);
   color: #58734c;
@@ -7074,7 +7090,7 @@ body.violet-home .back-btn {
 }
 .blog-single-page-area .blog-single-wrap .blog-img ul li strong {
   color: #58734c;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -7122,7 +7138,7 @@ body.violet-home .back-btn {
   border-radius: 5px;
   border: 2px solid #E3E3E3;
   padding: 30px;
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -7254,7 +7270,7 @@ body.violet-home .back-btn {
   color: #5C5C5C;
 }
 .blog-single-page-area .blog-single-wrap .more-posts .post-name {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -7582,7 +7598,7 @@ body.violet-home .back-btn {
 }
 .blog-single-page-area .blog-single-wrap .comment-respond .form-inputs label,
 .blog-single-page-area .blog-single-wrap .comment-respond .form-textarea label {
-  font-family: "Rajdhani";
+  font-family: "Urbanist";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;

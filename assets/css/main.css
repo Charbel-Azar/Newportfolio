@@ -53,6 +53,10 @@
   51. Utilities
 
 -------------------------------------------------------------------- */
+
+/* Step 1: Define the custom font */
+
+
 .ratio {
   position: relative;
   display: block;
