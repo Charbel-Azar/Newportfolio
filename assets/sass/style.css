@@ -1775,7 +1775,7 @@ body.dark-page .mouse-circle-mover-follow {
 }
 .ch-main-hero-s2 .ch-main-hero-text span.title-sub {
   font-family: "Urbanist";
-  font-size: 44px;
+  font-size: 42px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
@@ -1805,7 +1805,7 @@ body.dark-page .mouse-circle-mover-follow {
 }
 @media (max-width: 575px) {
   .ch-main-hero-s2 .ch-main-hero-text h2 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 44px;
     margin-top: 10px;
     margin-bottom: 20px;
